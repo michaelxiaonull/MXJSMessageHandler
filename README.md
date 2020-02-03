@@ -1,6 +1,8 @@
 # MXJSMessageHandler
 MXJSMessageHandler solves that WKWebView has always retained`(id<WKScriptMessageHandler> scriptMessageHandler`, scriptMessageHandler may be a controller.
 
+解决了WKWebView的`scriptMessageHandler`有时候会是controller本身的问题，导致循环引用，内存泄漏的问题
+
 # How to use 
 
 ## 原生注入js方法callNativeMethod（内部再调用原生的方法test）
