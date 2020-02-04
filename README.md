@@ -3,6 +3,9 @@ MXJSMessageHandler solves that WKWebView has always retained`(id<WKScriptMessage
 
 解决了WKWebView的`scriptMessageHandler`有时候会是controller本身的问题，导致循环引用，内存泄漏的问题
 
+# Screenshot
+![image.png](https://upload-images.jianshu.io/upload_images/2546918-811825f0903b9b81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/340)
+
 # How to use 
 
 ## 原生注入js方法callNativeMethod（内部再调用原生的方法test）
